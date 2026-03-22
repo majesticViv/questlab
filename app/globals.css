@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Primary */
+  --color-bg-deep: #1a0a2e;
+  --color-bg-mid: #2d1854;
+  --color-purple-accent: #7c4dff;
+  --color-purple-light: #b388ff;
+
+  /* Planet */
+  --color-planet-base: #9b7cc5;
+  --color-planet-highlight: #d4b8e8;
+  --color-planet-shadow: #5a3d7a;
+
+  /* Landscape */
+  --color-land-dark: #2d5a27;
+  --color-land-mid: #4a8c3f;
+  --color-land-light: #6db35f;
+
+  /* Neutrals */
+  --color-off-white: #f5f3f7;
+  --color-gray-100: #e8e4ed;
+  --color-gray-300: #b8b0c4;
+  --color-gray-500: #7a7189;
+  --color-gray-700: #4a4258;
+  --color-gray-900: #1e1a28;
+
+  /* Semantic */
+  --color-success: #4caf50;
+  --color-error: #ef5350;
+
+  /* Fonts */
+  --font-sans: var(--font-lexend);
+
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+  --spacing-3xl: 4rem;
+  --spacing-4xl: 6rem;
+}
+
+body {
+  background: #ffffff;
+  color: var(--color-gray-900);
+  font-family: var(--font-sans);
+}
+
+@keyframes twinkle-1 { 0%, 100% { opacity: 0.3; } 50% { opacity: 0.9; } }
+@keyframes twinkle-2 { 0%, 100% { opacity: 0.35; } 50% { opacity: 0.85; } }
+@keyframes twinkle-3 { 0%, 100% { opacity: 0.3; } 50% { opacity: 0.9; } }
+@keyframes twinkle-4 { 0%, 100% { opacity: 0.4; } 50% { opacity: 0.8; } }
+@keyframes twinkle-5 { 0%, 100% { opacity: 0.3; } 50% { opacity: 0.9; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .star-twinkle { animation: none !important; }
+}

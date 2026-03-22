@@ -49,6 +49,9 @@ create policy "Allow anonymous inserts" on public.waitlist
 
 -- Index on email for uniqueness checks
 create index idx_waitlist_email on public.waitlist (email);
+
+-- Add phone column (run if table already exists)
+-- ALTER TABLE public.waitlist ADD COLUMN phone text;
 ```
 
 ### Future tables (not created in Phase 1, documented for planning)
