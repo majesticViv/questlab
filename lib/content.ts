@@ -22,7 +22,7 @@ export const content = {
   },
 
   howItWorks: {
-    heading: "Accessible learning through virtual sandbox experimentation",
+    heading: "Accessible learning through virtual sandbox experiments",
     steps: [
       {
         number: 1,
@@ -61,7 +61,7 @@ export const content = {
     items: [
       {
         key: "experiment" as const,
-        headline: "Kids design their own solutions to experiments",
+        headline: "Kids run the experiments themselves",
         description:
           "Kids design rockets, test variables, and collect their own data. Every quest follows the scientific method from hypothesis to conclusion.",
       },
@@ -75,7 +75,7 @@ export const content = {
         key: "world" as const,
         headline: "A universe of science to explore",
         description:
-          "Each planet is a new experiment. Kids earn XP, customize their rocket, and build a collection of completed quests.",
+          "Every topic is a new planet to visit. Kids track their progress, customize their rocket, and build a record of what they've discovered.",
       },
     ],
   },
@@ -85,15 +85,15 @@ export const content = {
       heading: "For Parents",
       subheading: "Science your kid actually wants to do after school",
       bullets: [
-        "Experiment-based, not video-based",
+        "Hands-on experiments, not videos",
         "Aligned to real science standards (NGSS)",
-        "Progress updates sent to your inbox weekly",
+        "Weekly progress updates sent to your inbox",
         "No ads, no paywalls mid-experiment",
       ],
     },
     teachers: {
       heading: "For Teachers",
-      subheading: "A virtual lab that runs itself",
+      subheading: "A virtual lab that's ready when you are",
       bullets: [
         "Plug-and-play: standards-aligned experiments ready to assign",
         "Replaces prep-heavy physical labs on tight schedules",
